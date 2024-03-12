@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - ondoc_flut_opentok (0.0.18):
+    - Flutter
+    - OpenTok (= 2.21.3)
+    - SnapKit (~> 5.0.1)
+  - OpenTok (2.21.3)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - ondoc_flut_opentok (from `.symlinks/plugins/ondoc_flut_opentok/ios`)
+
+SPEC REPOS:
+  trunk:
+    - OpenTok
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  ondoc_flut_opentok:
+    :path: ".symlinks/plugins/ondoc_flut_opentok/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  ondoc_flut_opentok: f311c97e50b53904af33c7437c50e82831dc5b44
+  OpenTok: 6c553d092fa8d28cf3457a2b3c1e8f7904ee6063
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: a798fe452cbf2086321c8b04a0fa5621d438f443
+
+COCOAPODS: 1.11.2

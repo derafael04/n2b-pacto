@@ -1,0 +1,30 @@
+name: ondoc_flut_opentok
+description: Ondoc OpenTok Flutter
+version: 0.0.18
+homepage: https://github.com/ninjasolutions/ondoc_flutter_opentok
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.4.0
+
+  collection: ^1.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.4
+  json_serializable: ^6.0.1
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.flutter_opentok
+        pluginClass: FlutterOpentokPlugin
+      ios:
+        pluginClass: FlutterOpentokPlugin
